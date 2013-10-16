@@ -21,9 +21,8 @@ header {
 }
 
 header h1 {
-    float: left;
-    font-family: georgia, helvetica, sans-serif; 
-    font-size: 18px;
+    float: left; 
+    font-size: 22px;
     font-weight: 500;
     padding: 10px; /* TRouBLe */
 }
@@ -50,6 +49,7 @@ header a:active {
 header a:focus {}
 
 article {
+    background-color: #ffffff;
     clear: both;
     padding: 0 10px 0 10px;
 }
@@ -67,14 +67,18 @@ article h2 {
 }
 
 aside {
-    background-color: #000;
-    float: right;
-    margin: 0 0 10px 5%;
-    width: 47.5%;
+    background-color: #aaaaaa;
+    float: left;
+    padding: 10px;
+    margin: 0 0 0 0;
+    width: 25%;
 }
 footer {
     clear: both;
     font-size: 12px;
     padding: 0 10px 0 10px;
 }
+ul,li { 
+    margin-left: 10px;
+    list-style-type: disc;
 }
