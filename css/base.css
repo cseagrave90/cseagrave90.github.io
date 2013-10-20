@@ -48,6 +48,10 @@ header a:active {
 }
 header a:focus {}
 
+img {
+    float:inherit;
+}
+
 article {
     background-color: #ffffff;
     clear: both;
