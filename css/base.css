@@ -65,6 +65,10 @@ article aside {
     height: 100%;
 }
 
+object {
+    padding: 10px
+        
+
 footer {
     padding: 25px;
     text-align: center;
